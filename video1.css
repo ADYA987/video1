@@ -1,0 +1,43 @@
+.video-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.volume {
+  width: 100px;
+  margin: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.playback-line {
+  width: 0;
+  height: 10px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
